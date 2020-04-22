@@ -4,7 +4,7 @@
 **Steps to run the project**
 
 1. Build the react app and the python scripts
-2. Do &quot;npm start&quot; to run the react app in the respective folder and &quot;python script.py&quot; in the respective folder
+2. Do &quot;npm install&quot; and &quot;npm start&quot; to run the react app in the respective folder and &quot;python script.py&quot; in the respective folder
 3. Write the Dockerfile for the react and the python app
 4. For react app we are using nginx server to serve the static pages to resolve the container name issue, to use it as hostname in docker
 5. Before building the docker image for react, perform &quot;npm run build&quot;
